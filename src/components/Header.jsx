@@ -1,17 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
+import {ThemeContextConsumer} from "../themeContext"
 
 const Header = () => {
-  const [mode, setMode] = useState(true)
-  const [theme, setTheme] = useState('dark')
-  const body = document.getElementById('body')
-  body.className=`${theme}`
-  let modeType
-  mode ? modeType = 'Dark' : modeType = 'Light'
-
-  function handleChange() {
-    setMode(!mode)
-    mode ? setTheme('light') : setTheme('dark')
-  }
 
   return(
     <div className='header'>
@@ -22,9 +12,18 @@ const Header = () => {
       </div>
       <br />
       <div className='modeSwitch'>
-        <span className='userProfile'>{modeType} mode</span>
+        <ThemeContextConsumer>
+          {context => (
+            <span className='userProfile'>{context.theme === "light" ? "Light" : "Dark"} mode</span>
+          )}
+        </ThemeContextConsumer>
+
         <label className="switch">
-          <input type="checkbox" onChange={handleChange} checked={mode}/>
+          <ThemeContextConsumer>
+            {context => (
+              <input type="checkbox" onChange={context.toggleTheme}/>
+            )}
+          </ThemeContextConsumer>
             <span className="slider round"> </span>
         </label>
       </div>
