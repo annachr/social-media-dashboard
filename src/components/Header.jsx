@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Header() {
+const Header = () => {
   const [mode, setMode] = useState(true)
   const [theme, setTheme] = useState('dark')
   const body = document.getElementById('body')
