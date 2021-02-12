@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![social_media_light_full](https://user-images.githubusercontent.com/60232927/107771360-f02ddb80-6d3a-11eb-9030-53dcb5bebd7e.png)
 ![social_media_responsive_1](https://user-images.githubusercontent.com/60232927/107771361-f0c67200-6d3a-11eb-8272-5d0467b5e8d4.png)
 ![social_media_responsive_2](https://user-images.githubusercontent.com/60232927/107771363-f0c67200-6d3a-11eb-8b22-a5c9e021978f.png)
+![social_media_responsive_3](https://user-images.githubusercontent.com/60232927/107771772-8cf07900-6d3b-11eb-849f-f46ab97d8cea.png)
 
 ## Available Scripts
 
