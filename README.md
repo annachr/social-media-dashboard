@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Used Approach
+- Flexbox
+- CSS Grid
+- CSS Vars
+- React Context
+
+## Screenshots
+![social_media_dark_full](https://user-images.githubusercontent.com/60232927/107771357-ef954500-6d3a-11eb-8c17-8fdaa4617bfa.png)
+![social_media_light_full](https://user-images.githubusercontent.com/60232927/107771360-f02ddb80-6d3a-11eb-9030-53dcb5bebd7e.png)
+![social_media_responsive_1](https://user-images.githubusercontent.com/60232927/107771361-f0c67200-6d3a-11eb-8272-5d0467b5e8d4.png)
+![social_media_responsive_2](https://user-images.githubusercontent.com/60232927/107771363-f0c67200-6d3a-11eb-8b22-a5c9e021978f.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
